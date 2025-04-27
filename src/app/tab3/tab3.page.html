@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-title>Relatório</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -10,13 +8,21 @@
   <ion-card>
     <ion-card-content>
       <ion-list>
-        <ion-label>Relatório</ion-label>
         <ion-item>Senhas emitidas: {{senhasService.senhasTotal}}</ion-item>
         <ion-item>Senhas Geral: {{senhasService.senhasGeral}}</ion-item>
         <ion-item>Senhas Prioritárias: {{senhasService.senhasPrior}}</ion-item>
         <ion-item>Senhas Exame: {{senhasService.senhasExame}}</ion-item>
+
+        <ion-item *ngFor="let senha of senhasService.senhasArray.SG">
+          <ion-label>{{senha.senha}} - {{senha.timestamp}}</ion-label>
+        </ion-item>
+        <ion-item *ngFor="let senha of senhasService.senhasArray.SP">
+          <ion-label>{{senha.senha}} - {{senha.timestamp}}</ion-label>
+        </ion-item>
+        <ion-item *ngFor="let senha of senhasService.senhasArray.SE">
+          <ion-label>{{senha.senha}} - {{senha.timestamp}}</ion-label>
+        </ion-item>
       </ion-list>
     </ion-card-content>
   </ion-card>
-  
 </ion-content>
