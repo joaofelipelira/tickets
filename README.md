@@ -17,7 +17,6 @@ Este projeto consiste em um sistema web para gerenciamento de senhas, desenvolvi
 * **Painel de Chamada:** Exibe a próxima senha a ser atendida e permite ao atendente iniciar e finalizar o atendimento.
 * **Histórico de Chamadas:** Mostra as últimas senhas que foram chamadas.
 * **Relatório Diário:** Apresenta um resumo das senhas emitidas e atendidas no dia atual, com detalhes por tipo.
-* **Relatório Mensal:** Exibe um panorama das senhas emitidas e atendidas no mês corrente, também detalhado por tipo.
 * **Reset do Sistema:** Permite zerar todos os contadores e filas de senhas para um novo ciclo.
 
 ## Tecnologias Utilizadas
