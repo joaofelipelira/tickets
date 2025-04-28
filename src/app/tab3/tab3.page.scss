@@ -1,0 +1,53 @@
+ion-content {
+
+  
+    ion-card {
+      margin: 16px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 16px; // Adicionando padding diretamente no card
+    }
+  
+
+    ion-list {
+        background: transparent; /* Tornando o fundo transparente */
+        box-shadow: none;       /* Removendo a sombra da lista */
+        margin-bottom: 16px;
+        padding: 0 16px;       /* Ajustando o padding para as laterais */
+      }
+
+    ion-item {
+      --padding-start: 0; // Removendo padding padrão do item
+      --inner-padding-end: 0; // Removendo padding padrão do item
+      border-bottom: 1px solid #e0e0e0;
+      padding: 8px 0; // Adicionando padding vertical aos itens
+      font-size: 14px;
+    }
+  
+    ion-item:last-child {
+      border-bottom: none;
+    }
+  
+    ion-label {
+      font-weight: normal; // Removendo o negrito padrão
+    }
+  
+    .contador-titulo {
+      font-weight: bold;
+      color: #3880ff;
+      margin-right: 8px;
+    }
+  
+    .contador-valor {
+      font-size: 1.2em;
+      color: #ffffff;
+    }
+  
+    .senha-item {
+      color: #777;
+    }
+  
+    ion-button {
+      margin-top: 16px;
+    }
+  }

@@ -1,0 +1,76 @@
+Creative Commons Attribution 4.0 International
+
+Ao exercer os Direitos Licenciados (conforme definido abaixo), Você aceita e concorda com os termos e condições desta Licença Creative Commons Pública ("CCPL" ou "Licença"). Na medida em que esta CCPL possa ser interpretada como um contrato, Você recebe os Direitos Licenciados em consideração de Sua aceitação destes termos e condições, e o Licenciador concede-lhe tais direitos em consideração dos benefícios que o Licenciador recebe da disponibilização do Material Licenciado sob estes termos e condições.
+
+Seção 1 – Definições.
+
+a. Material Adaptado significa material resultante de Direitos Licenciados que foram Adaptados; onde a Adaptação é definida abaixo.
+
+b. Adaptação significa o ato de fazer adaptações de um modo tecnicamente necessário para exercer os Direitos Licenciados, e onde o Material Adaptado resultante também é Material Licenciado. Para fins desta Licença, meramente fazer alterações de formato nunca é considerado uma Adaptação.
+
+c. Direitos de Adaptação significa os direitos exclusivos de fazer Adaptações, dispor e disponibilizar publicamente as Adaptações, incluindo por meio digital, e os Direitos de Produção e Direitos de Banco de Dados aplicáveis.
+
+d. Atribuição Solicitada significa a atribuição que o Licenciador designa, razoavelmente, para ser associada ao Material Licenciado e fornecida por Você quando Você Disponibiliza Publicamente o Material Licenciado.
+
+e. Licença significa esta Licença Pública Creative Commons.
+
+f. Direitos Licenciados significa os direitos concedidos a Você sob os termos e condições desta Licença que são limitados por todos os Direitos de Propriedade Intelectual do Licenciador sobre o Material Licenciado e Direitos de Banco de Dados aplicáveis.
+
+g. Material Licenciado significa as obras ou banco de dados protegidos por Direitos Licenciados, que são disponibilizados sob esta Licença.
+
+h. Licenciador significa a(s) pessoa(s) ou entidade(s) que concedem direitos sobre o Material Licenciado sob esta Licença.
+
+i. Disponibilizar Publicamente significa disponibilizar ou fornecer o Material Licenciado ou Material Adaptado ao público, por qualquer meio ou processo, incluindo meios verbais ou digitais.
+
+j. Direitos de Propriedade Intelectual significa direitos autorais e direitos conexos (incluindo direitos de produtor e direitos de transmissão), direitos de patente, marcas registradas, direitos de design, direitos de banco de dados (incluindo direitos sui generis) e quaisquer outros direitos de propriedade intelectual e moral.
+
+k. Você significa o indivíduo ou entidade que exerce os Direitos Licenciados sob esta Licença. Seu significa também Você.
+
+Seção 2 – Escopo.
+
+a. Concessão de licença. Sujeito aos termos e condições desta Licença, o Licenciador concede-lhe uma licença mundial, isenta de royalties, não exclusiva, irrevogável para exercer os Direitos Licenciados sobre o Material Licenciado para:
+
+i. reproduzir e Compartilhar o Material Licenciado, no todo ou em parte, para fins não comerciais, por qualquer meio e formato;
+ii. produzir e reproduzir, mas não Compartilhar, Material Adaptado para fins não comerciais; e
+iii. reproduzir e Compartilhar o Material Adaptado que Você produziu para fins não comerciais, no todo ou em parte, por qualquer meio e formato.
+
+As exceções e limitações aos direitos autorais e direitos conexos – como o uso justo – não são afetadas por esta Licença.
+
+b. Direitos morais. Nada nesta Licença reduz, restringe, limita ou afeta quaisquer direitos morais que o Licenciador possua ou que sejam renunciados na medida do permitido pelas leis aplicáveis e que não sejam licenciados.
+
+c. Direitos de banco de dados. Onde os Direitos Licenciados incluem direitos sui generis sobre banco de dados aplicáveis a Você, o direito concedido na Seção 2(a) também inclui o direito de extrair, reutilizar, reproduzir e Compartilhar todo ou uma parte substancial do conteúdo do banco de dados, desde que Você não Compartilhe Material Adaptado onde a Adaptação seja meramente uma Adaptação.
+
+d. Limitações. Os Direitos Licenciados e concessões estabelecidos acima estão expressamente sujeitos e limitados pelo seguinte:
+
+i. Atribuição.
+
+A. Se Você Disponibilizar Publicamente o Material Licenciado, Você deve:
+
+1. manter intactas todas as notificações de direitos autorais para o Material Licenciado; e
+2. fornecer atribuição ao Licenciador na medida do razoável ao meio e aos meios que Você está utilizando: (i) se fornecido com o Material Licenciado, o nome do criador(es) e partes de atribuição, designação de direitos autorais, aviso de licença, aviso de isenção de responsabilidade e link para o Material Licenciado; (ii) razoavelmente praticável, o URL, se houver, que está associado ao Material Licenciado; (iii) indicar se Você Adaptou o Material Licenciado e reter uma indicação de alterações anteriores; e
+3. indicar que o Material Licenciado está licenciado sob esta Licença e incluir o texto desta Licença, o Link para a mesma ou o Identificador Uniforme de Recursos (URI) da mesma.
+
+B. Para qualquer Material Adaptado que Você Disponibilizar Publicamente, Você deve:
+
+1. identificar os criadores do Material Licenciado e fornecer uma atribuição de acordo com a Seção 3(a)(i)(A);
+2. indicar que Você Adaptou o Material Licenciado e reter uma indicação de alterações anteriores; e
+3. indicar que o Material Adaptado está licenciado sob a mesma licença, ou uma licença posteriormente publicada com os mesmos Elementos de Licença desta Licença.
+4. incluir o texto da Licença, ou o Link para a mesma ou o URI da mesma. Para maior clareza, esta subseção (b) aplica-se ao Material Adaptado que Você Disponibiliza Publicamente.
+
+C. Você pode satisfazer as condições da Seção 3(a)(i)(B) de qualquer maneira razoável com base no meio, meios e contexto nos quais Você Disponibiliza Publicamente o Material Licenciado. Por exemplo, um URL para um recurso que contém as informações solicitadas é considerado uma Atribuição Solicitada razoável.
+
+D. Para maior clareza, a atribuição solicitada sob a Seção 3(a) pode ser implementada de maneira razoável; desde que, no caso de uma Adaptação, uma atribuição pelo menos tão destacada quanto as atribuições de outros contribuidores seja incluída.
+
+ii. Restrições Adicionais. Você não pode aplicar Termos Legais ou Medidas Tecnológicas que restrinjam legalmente outros de fazer qualquer coisa que esta Licença permita.
+
+Seção 3 – Termos e Condições Adicionais.
+
+a. Exceto quando expressamente declarado de outra forma pelo Licenciador, o Licenciador não declara nem garante o Material Licenciado, e renuncia a todas as responsabilidades (incluindo, sem limitação, garantias de comerciabilidade, adequação a um propósito específico, não violação, ausência de defeitos ocultos ou outros, precisão ou ausência de erros, conhecidos ou desconhecidos) na medida do permitido pela lei aplicável. Onde as isenções de responsabilidade não são permitidas na totalidade ou em parte, esta isenção de responsabilidade pode não se aplicar a Você.
+
+b. Exceto onde expressamente acordado de outra forma pelo Licenciador, na medida do permitido pela lei aplicável, em nenhum caso o Licenciador será responsável perante Você por quaisquer danos diretos, especiais, indiretos, incidentais, consequenciais, punitivos ou exemplares, perdas, custos, despesas ou reivindicações (incluindo, sem limitação, honorários advocatícios razoáveis) decorrentes desta Licença ou do uso do Material Licenciado, mesmo que o Licenciador tenha sido avisado da possibilidade de tais danos, perdas, custos, despesas ou reivindicações. Na medida em que a exclusão ou limitação de responsabilidade não seja permitida na totalidade ou em parte, esta exclusão ou limitação pode não se aplicar a Você.
+
+c. Qualquer acordo ou entendimento separado ou adicional com relação ao Material Licenciado não está incluído nos termos e condições desta Licença, a menos que explicitamente declarado nela.
+
+d. Nada nesta Licença constitui ou pode ser interpretado como uma permissão para reivindicar ou implicar que Você ou Seu uso do Material Licenciado seja patrocinado, endossado, conectado ou associado ao Licenciador ou Atribuição Solicitada, ou por qualquer outra parte.
+
+e. Interpretação. Os termos e condições desta Licença devem ser interpretados de acordo com seu significado ordinário, conforme razoavelmente necessário para alcançar sua intenção. A localização dos títulos é apenas para referência e não afeta a interpretação desta Licença.

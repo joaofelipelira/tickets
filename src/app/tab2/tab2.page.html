@@ -1,17 +1,106 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+      <ion-title>Atendimento de Senhas</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+      <ion-card-header>
+          Próxima Senha
+      </ion-card-header>
+      <ion-card-content *ngIf="proximaSenhaChamada">
+          <h2>{{ proximaSenhaChamada?.senha }}</h2>
+          <p>Emitida em: {{ proximaSenhaChamada?.timestamp }}</p>
+          <ion-button expand="block" (click)="iniciarAtendimento(proximaSenhaChamada.senha)">
+              Iniciar Atendimento
+          </ion-button>
+      </ion-card-content>
+      <ion-card-content *ngIf="!proximaSenhaChamada">
+          <p>Não há senhas pendentes no momento.</p>
+      </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+      <ion-card-header>
+          Últimas 5 Senhas Atendidas
+      </ion-card-header>
+      <ion-card-content>
+          <ion-list>
+              <ion-item *ngFor="let senha of ultimasChamadasExibicao">
+                  <ion-label>
+                      <h2>{{ senha.senha }}</h2>
+                      <p>Atendida em: {{ senha.horaAtendimento | date:'HH:mm:ss' }}</p>
+                  </ion-label>
+              </ion-item>
+              <ion-item *ngIf="ultimasChamadasExibicao.length === 0">
+                  <ion-label>Nenhuma senha atendida ainda.</ion-label>
+              </ion-item>
+          </ion-list>
+      </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+      <ion-card-header>
+          Senhas Pendentes
+      </ion-card-header>
+      <ion-card-content>
+          <ion-list>
+              <ion-item *ngFor="let senha of senhasPendentes.SG">
+                  <ion-label>
+                      <h2>{{ senha.senha }}</h2>
+                      <p>Status: {{ senha.status }}</p>
+                      <p *ngIf="senha.status === 'atendida'">Atendido em: {{ senha.horaAtendimento | date:'HH:mm:ss' }}</p>
+                      <p *ngIf="senha.status === 'em atendimento'">Em Atendimento</p>
+                  </ion-label>
+                  <ion-button slot="end" color="danger" *ngIf="senha.status === 'pendente'" (click)="descartarSenha(senha.senha, 'SG')">
+                      Descartar
+                  </ion-button>
+                  <ion-button slot="end" *ngIf="senha.status === 'pendente' && proximaSenhaChamada?.senha !== senha.senha" (click)="iniciarAtendimento(senha.senha)">
+                      Atender
+                  </ion-button>
+                  <ion-button slot="end" color="success" *ngIf="senha.status === 'em atendimento'" (click)="finalizarAtendimento(senha.senha)">
+                      Finalizar
+                  </ion-button>
+              </ion-item>
+              <ion-item *ngFor="let senha of senhasPendentes.SP">
+                  <ion-label>
+                      <h2>{{ senha.senha }}</h2>
+                      <p>Status: {{ senha.status }}</p>
+                      <p *ngIf="senha.status === 'atendida'">Atendido em: {{ senha.horaAtendimento | date:'HH:mm:ss' }}</p>
+                      <p *ngIf="senha.status === 'em atendimento'">Em Atendimento</p>
+                  </ion-label>
+                  <ion-button slot="end" color="danger" *ngIf="senha.status === 'pendente'" (click)="descartarSenha(senha.senha, 'SP')">
+                      Descartar
+                  </ion-button>
+                  <ion-button slot="end" *ngIf="senha.status === 'pendente' && proximaSenhaChamada?.senha !== senha.senha" (click)="iniciarAtendimento(senha.senha)">
+                      Atender
+                  </ion-button>
+                  <ion-button slot="end" color="success" *ngIf="senha.status === 'em atendimento'" (click)="finalizarAtendimento(senha.senha)">
+                      Finalizar
+                  </ion-button>
+              </ion-item>
+              <ion-item *ngFor="let senha of senhasPendentes.SE">
+                  <ion-label>
+                      <h2>{{ senha.senha }}</h2>
+                      <p>Status: {{ senha.status }}</p>
+                      <p *ngIf="senha.status === 'atendida'">Atendido em: {{ senha.horaAtendimento | date:'HH:mm:ss' }}</p>
+                      <p *ngIf="senha.status === 'em atendimento'">Em Atendimento</p>
+                  </ion-label>
+                  <ion-button slot="end" color="danger" *ngIf="senha.status === 'pendente'" (click)="descartarSenha(senha.senha, 'SE')">
+                      Descartar
+                  </ion-button>
+                  <ion-button slot="end" *ngIf="senha.status === 'pendente' && proximaSenhaChamada?.senha !== senha.senha" (click)="iniciarAtendimento(senha.senha)">
+                      Atender
+                  </ion-button>
+                  <ion-button slot="end" color="success" *ngIf="senha.status === 'em atendimento'" (click)="finalizarAtendimento(senha.senha)">
+                      Finalizar
+                  </ion-button>
+              </ion-item>
+              <ion-item *ngIf="senhasPendentes.SG.length === 0 && senhasPendentes.SP.length === 0 && senhasPendentes.SE.length === 0">
+                  <ion-label>Não há senhas pendentes.</ion-label>
+              </ion-item>
+          </ion-list>
+      </ion-card-content>
+  </ion-card>
 </ion-content>

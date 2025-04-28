@@ -11,4 +11,11 @@ export class Tab3Page {
 
   constructor(public senhasService: SenhasService) {}
 
+  ionViewWillEnter() {
+    this.senhasService.carregarSenhas(); }
+
+    resetarSenhas() {
+      this.senhasService.resetarSenhas();
+    }
+
 }
